@@ -23,13 +23,13 @@ repository               : "chunchenxu/chunchenxu.github.io"
 author:
   # Biographic information
   avatar           : "ccprofile.png"
-  name             : "Your Sidebar Name"
+  name             : "Chunchen Xu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Postdoctoral researcher"
+  location         : "California, U.S."
+  employer         : "Stanford University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "cxu66@stanford.edu" 
 
   # Academic websites
   academia         : # URL
