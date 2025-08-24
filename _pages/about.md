@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a behavioral scientist and culture scholar at Stanford University. 
+As a behavioral scientist and cultural scholar, I explore how culture influences our ability to live in just and caring relations—with one another and with the natural world. 
 
 Recent News 
 ======
