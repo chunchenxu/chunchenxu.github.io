@@ -22,7 +22,7 @@ repository               : "chunchenxu/chunchenxu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "/images/ccprofile.png"
   name             : "Chunchen Xu"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral researcher"
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : chunchen-xu-b460b160
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
