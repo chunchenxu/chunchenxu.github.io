@@ -28,10 +28,6 @@ author_profile: true
 </div>
 
 <style>
-.research-container {
-    max-width: 100%;
-}
-
 .research-container h2 {
     font-size: 1.3em;
     font-weight: 500;
