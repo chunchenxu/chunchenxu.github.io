@@ -1,36 +1,169 @@
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications</title>
+</head>
+<body>
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="publications-container">
+    
+    <h1>Publications</h1>
+    
+    <p>You can also find my articles on <a href="YOUR_GOOGLE_SCHOLAR_URL_HERE" target="_blank">my Google Scholar profile</a>.</p>
+    
+    <h2>Journal Articles</h2>
+    
+    <div class="publication-entry">
+        <div class="citation">
+            <strong>Smith, J. A., Johnson, M. K., &amp; Davis, R. L.</strong> (2024). Social influence and risk perception in financial decision-making: Evidence from laboratory experiments. <em>Journal of Behavioral Economics</em>, 45(3), 234-251.
+        </div>
+        
+        <div class="abstract">
+            <strong>Abstract:</strong> We investigate how social information affects individual risk preferences in financial contexts through a series of controlled laboratory experiments with 240 participants. Using a within-subjects design, we manipulate the availability and framing of peer information about investment choices. Results show that participants significantly adjust their risk tolerance when exposed to information about others' decisions, with effects varying by individual characteristics such as financial literacy and social anxiety. The findings suggest that social influence operates through both informational and normative channels, with implications for understanding market behavior and designing financial education programs. We discuss theoretical implications for dual-process models of decision-making and practical applications for financial advisory services.
+        </div>
+        
+        <div class="download-section">
+            <a href="files/paper1.pdf" class="btn btn-primary" target="_blank">Download PDF</a>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div class="publication-entry">
+        <div class="citation">
+            <strong>Smith, J. A.</strong> (2023). Cognitive biases in climate change risk assessment: A meta-analysis of behavioral interventions. <em>Environmental Psychology Review</em>, 28(4), 112-129.
+        </div>
+        
+        <div class="abstract">
+            <strong>Abstract:</strong> This meta-analysis synthesizes findings from 34 studies examining cognitive biases in climate change risk perception and the effectiveness of behavioral interventions designed to improve risk assessment accuracy. The analysis reveals systematic patterns in how individuals process climate-related information, with optimism bias and temporal discounting showing the strongest effects across diverse populations. Intervention studies demonstrate that perspective-taking exercises and probabilistic reasoning training show moderate effectiveness (Cohen's d = 0.42), while simple information provision shows minimal impact. The review identifies key moderating factors including political affiliation, direct experience with climate events, and numeracy skills. These findings contribute to our understanding of how psychological factors shape environmental decision-making and inform the design of more effective climate communication strategies.
+        </div>
+        
+        <div class="download-section">
+            <a href="files/paper2.pdf" class="btn btn-primary" target="_blank">Download PDF</a>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div class="publication-entry">
+        <div class="citation">
+            <strong>Johnson, M. K., Smith, J. A., Wilson, P. R., &amp; Chen, L.</strong> (2023). Network effects in adoption of digital payment systems: A field experiment with 1,200 small businesses. <em>Economic Behavior &amp; Organization</em>, 189, 45-62.
+        </div>
+        
+        <div class="abstract">
+            <strong>Abstract:</strong> We conduct a large-scale field experiment to examine how network effects influence the adoption of digital payment technologies among small businesses. Partnering with a fintech company, we randomized treatment across 1,200 merchants in three metropolitan areas, manipulating information about peer adoption rates within local business networks. Our design allows us to separate peer effects from correlated unobservables through both spatial and temporal variation in treatment assignment. Results indicate strong network effects, with a 10 percentage point increase in peer adoption rates leading to a 3.2 percentage point increase in own adoption probability. Effects are strongest for businesses with high customer overlap and weaker social ties to early adopters. We develop a simple theoretical model that explains these patterns through social learning and coordination mechanisms. The findings have implications for understanding technology diffusion and designing targeted interventions to accelerate adoption of beneficial innovations.
+        </div>
+        
+        <div class="download-section">
+            <a href="files/paper3.pdf" class="btn btn-primary" target="_blank">Download PDF</a>
+        </div>
+    </div>
+    
+    <h2>Working Papers</h2>
+    
+    <div class="publication-entry">
+        <div class="citation">
+            <strong>Smith, J. A., &amp; Martinez, C. S.</strong> (under review). Attention and choice overload in online marketplaces: Evidence from eye-tracking experiments.
+        </div>
+        
+        <div class="abstract">
+            <strong>Abstract:</strong> Choice overload—the phenomenon where too many options can impair decision quality—has important implications for digital marketplaces where consumers face vast arrays of products. We use eye-tracking technology to examine the cognitive mechanisms underlying choice overload in online shopping environments. In two experiments (N = 180, N = 220), participants made purchasing decisions while we monitored their visual attention patterns. Results show that increased choice set size leads to more dispersed attention, longer decision times, and lower satisfaction with chosen products. Crucially, we identify individual differences in information processing capacity as a key moderator: participants with higher working memory spans show less susceptibility to choice overload effects. These findings provide new insights into the cognitive limits of consumer decision-making and inform the design of choice architectures for e-commerce platforms.
+        </div>
+        
+        <div class="download-section">
+            <a href="files/working_paper1.pdf" class="btn btn-primary" target="_blank">Download PDF</a>
+        </div>
+    </div>
+    
+    <h2>Conference Presentations</h2>
+    
+    <div class="conference-entry">
+        <p><strong>Smith, J. A.</strong> (2024, May). <em>Behavioral spillovers in organizational innovation adoption</em>. Paper presented at the Association for Behavioral Decision Research Annual Conference, Philadelphia, PA.</p>
+    </div>
+    
+    <div class="conference-entry">
+        <p><strong>Smith, J. A., &amp; Davis, R. L.</strong> (2023, November). <em>Social learning in financial markets: Laboratory evidence</em>. Paper presented at the Economic Science Association World Meeting, Lyon, France.</p>
+    </div>
 
-{% include base_path %}
+</div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<style>
+.publications-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+}
 
+.publication-entry {
+    margin-bottom: 30px;
+}
 
+.citation {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
 
+.abstract {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+    margin: 15px 0;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.download-section {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+.conference-entry {
+    margin-bottom: 15px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #dee2e6;
+    margin: 30px 0;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #495057;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+</style>
+
+</body>
+</html>
