@@ -26,7 +26,7 @@ author:
   name             : "Chunchen Xu"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral researcher"
-  location         : "California, U.S."
+  location         : # "California, U.S."
   employer         : "Stanford University"
   uri              : # URL
   email            : "cxu66@stanford.edu" 
