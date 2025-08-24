@@ -9,7 +9,7 @@
 
 main:
 - title: "Research Projects"      # Add this new entry
-    url: /research/    
+    url: /research.html  
   
 - title: "Publications"
     url: /publications.html
