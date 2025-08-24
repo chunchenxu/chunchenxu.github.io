@@ -22,7 +22,7 @@ repository               : "chunchenxu/chunchenxu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ccprofile.png"
+  avatar           : "images/ccprofile.png"
   name             : "Chunchen Xu"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral researcher"
