@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Chunchen's Research Site"
+# title                  : "Chunchen's Research Site"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "chunchenxu/chunchenxu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "CHUNCHEN XU"
+  name             : "Chunchen Xu"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral researcher"
   location         : # "California, U.S."
