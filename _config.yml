@@ -30,6 +30,10 @@ author:
   employer         : "Stanford University"
   uri              : # URL
   email            : "cxu66@stanford.edu" 
+  links:
+  - label: "curriculum vitae"
+      icon: "fas fa-fw fa-file-alt"
+      url: "https://docs.google.com/document/d/1Fs4gtZlfEcUZZmzBFBlVFA0IJTXhagvDeV-uMnFxi1w/edit?usp=sharing"
 
   # Academic websites
   academia         : # URL
