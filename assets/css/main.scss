@@ -41,3 +41,14 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Move sidebar further left */
+.sidebar {
+    margin-left: -20px !important; /* Negative margin moves it left */
+}
+
+/* Adjust main content area to use more space */
+.archive {
+    margin-left: 0 !important;
+    padding-left: 20px !important;
+}
