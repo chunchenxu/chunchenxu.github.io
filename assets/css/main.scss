@@ -45,12 +45,13 @@
 /* Move sidebar further left */
 .sidebar {
     margin-left: -60px !important; /* Negative margin moves it left */
+    padding-right: 0px !important;
 }
 
 /* Adjust main content area to use more space */
 .archive {
     padding-left: 0px !important;
-    margin-left: -80px !important;    /* Moves content left */
+    margin-left: -160px !important;    /* Moves content left */
     margin-right: -160px !important;
 }
 
