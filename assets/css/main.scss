@@ -44,11 +44,11 @@
 
 /* Move sidebar further left */
 .sidebar {
-    margin-left: -150px !important; /* Negative margin moves it left */
+    margin-left: -120px !important; /* Negative margin moves it left */
 }
 
 /* Adjust main content area to use more space */
 .archive {
-    margin-left: 0 !important;
-    padding-left: 150px !important;
+    margin-left: -120px !important;
+    padding-left: 120px !important;
 }
