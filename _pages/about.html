@@ -51,16 +51,17 @@ I was born in a lovely small city with a lot of rivers and lakes in Jiangsu Prov
 
 <style>
 .about-container {
-    max-width: 1200px;         /* Set a reasonable maximum */
-    width: 95%;                /* Use most of available space */
-    margin: 0 auto;            /* Center the container */
-    margin-left: -20px;        /* Subtle left adjustment */
-    padding: 20px 40px;
+    max-width: none;           /* Remove max-width limit */
+    width: calc(100% - 20px);  /* Use full width minus small buffer */
+    margin: 0;                 /* Reset all margins */
+    margin-left: -30px;        /* Fine-tuned left shift */
+    margin-right: -140px;      /* Extend into right margin */
+    padding: 20px 40px;        /* Horizontal padding for readability */
     font-size: 14px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     line-height: 1.6;
     text-align: left;
-    box-sizing: border-box;
+    box-sizing: border-box;    /* Include padding in width calculation */
 }
   
 .content-section {
