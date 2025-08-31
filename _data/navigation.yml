@@ -2,9 +2,6 @@ main:
   - title: "Home"
     url: /about.html
 
-  - title: "Research Projects"
-    url: /research.html
-
   - title: "Publications"
     url: /publications.html
 
