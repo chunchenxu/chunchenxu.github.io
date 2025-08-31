@@ -56,3 +56,15 @@
 }
 
 /* margin-left: -260px !important;*/
+
+<style>
+/* Hide theme toggle button */
+.theme-toggle,
+.toggle-theme,
+#theme-toggle,
+.dark-mode-toggle,
+[class*="theme"],
+button[onclick*="theme"] {
+    display: none !important;
+}
+
